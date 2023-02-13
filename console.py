@@ -42,7 +42,9 @@ class HBNBCommand(cmd.Cmd):
     def help_quit(self):
         """ How to quit interpreter """
         print("Quit command to exit the program")
-
+    def help_EOF(self):
+        """Quit help """
+        print("EOF command")
     def emptyline(self):
         """
         [Empty line]
